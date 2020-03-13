@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from forms import DummyForm
+from .forms import DummyForm
 
 
 class SneakAdmin(admin.ModelAdmin):
